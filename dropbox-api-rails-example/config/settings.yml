@@ -1,0 +1,13 @@
+defaults: &defaults
+  dropbox:
+    app_key: v2nus69fgba078a
+    secret_key: gj3un5kkms3c7no
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
